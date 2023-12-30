@@ -3,7 +3,7 @@
 .header {
   position: fixed;
   transform: translateY(0);
-  width: 89%;
+  width: 100%;
   height: 60px;
   z-index: 1;
   display: flex;
@@ -93,7 +93,7 @@
       border-top: 1px solid rgba(255, 255, 255, 0.1);
       animation: mobileMenu 0.3s ease forwards;
       .menuItem {
-        font-size: 20px;
+        font-size: 17px;
         width: 100%;
         height: auto;
         padding: 15px 20px;
@@ -156,4 +156,13 @@
 }
 .searchicon{
     color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo {
+    cursor: pointer;
+    img {
+      height: 35px;
+    }
+  }
 }

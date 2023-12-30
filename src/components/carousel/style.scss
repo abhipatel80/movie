@@ -9,7 +9,12 @@
         color: white;
         margin-bottom: 20px;
         font-weight: normal;
-    }
+    } 
+    @media only screen and (max-width: 500px) {
+        .carouselTitle {
+        font-size: 19px;
+        }
+      }
     .arrow {
         font-size: 30px;
         color: white;

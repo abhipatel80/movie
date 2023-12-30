@@ -89,7 +89,7 @@ const header = () => {
       {showSearch && (<div className="searchBar">
         <ContentWrapper>
           <div className="searchinput">
-            <input type="text" onChange={(e) => setinput(e.target.value)} value={input} onKeyUp={change} placeholder='🔎 Search for movies or Tv shows...' />
+            <input type="text" onChange={(e) => setinput(e.target.value)} value={input} onKeyUp={change} placeholder='Search for movies or Tv shows...' />
             <VscChromeClose className='searchicon' onClick={() => setshowSearch(false)} />
           </div>
         </ContentWrapper>

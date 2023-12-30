@@ -50,10 +50,9 @@
       flex-shrink: 0;
       .posterImg {
         width: 100%;
-        display: block;
         border-radius: 12px;
         @include md {
-          max-width: 350px;
+          max-width: 400px;
         }
       }
     }
